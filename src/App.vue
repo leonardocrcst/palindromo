@@ -1,15 +1,14 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <PalindromeChecker />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import PalindromeChecker from '@/components/PalindromeChecker'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    PalindromeChecker
   }
 }
 </script>
